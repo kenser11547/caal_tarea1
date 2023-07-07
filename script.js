@@ -31,8 +31,13 @@ console.log(valor2)
     modulo: 'Numero II',
     mensaje: function (){
         alert("Esta es la materia de Programacion")
+    const {model} = Curso; 
     }
 }
+
+console.log(Curso.materia);
+
+console.log(Curso['año']);
 
 Curso.tareas = 10
 Curso.catedratico = 'Alferez de Navio Abner Fuentes'
@@ -48,19 +53,20 @@ console.log(catedratico)
 let tareashechas = [1,2,"calificadas"]
 
 
-switch (modulo) {
-    case 1:
-        console.log("El modulo es I")
+console.log(tareas)
 
-        break;
-    case 2:
-        console.log("El modulo es 2")
+// metodos para objetos
 
-        break;
+let array1 = [10,9,8,7];
+let array2 = [7,6,5,4,3];
 
-    default:
-        break;
-}
+conjunto = [...array1, ...array2];
 
+console.log(conjunto)
 
-console.log(modulo)
+let animales =['gallina, zorro, leon'];
+let tipos = ['carnivoros, herbivoros'];
+
+conjuntob = [...animales, ...tipos]
+
+console.log(conjuntob)
