@@ -1,5 +1,4 @@
-//TIPOS DE DATOS
-
+//TIPOS DE DATOS TAREA NUMERO 1 INGENIERIA DE SOFTWARE
 //variables tipo numero 
 
 if (true) {
