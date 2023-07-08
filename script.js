@@ -1,39 +1,50 @@
+//TIPOS DE DATOS
+
 //variables tipo numero 
+
 if (true) {
     var m = 105;
 }
-console.log(m);
-let numero = 15
+console.log(m);7//Aqui se imprime lo que contiene la variable o el numero
 
-console.log(numero)
- //variable tipo string 
- let nombre = "mi nombre es kenser omar"
+let numero = 15
+console.log(numero)//Aqui se imprime lo que contiene la variable o el numero
+
+
+ //VARIABLE DE TIPO BOOLEANO 
+ let valor1 = true
+ console.log(valor1)
+
+ let valor2 = false
+console.log(valor2)
+
+//VARIABLE TIPO CADENA DE TEXTO TIPO STRING
+ let nombre = "kenser omar"
 console.log(nombre)
  let apellidos = 'caal juc'
 console.log(apellidos)
- // tipo booleano
 
- let valor1 = true
-
- console.log(valor1)
- let valor2 = false
-console.log(valor2)
- // dato nulo
+ // TIPOS DE DATOS NULO
 
  let dato1 = null
  let dato2 = null
  console.log(dato1)
 
- //objetos 
+ console.log(dato2)
+
+
+
+
+ //TIPOS DE DATOS OBJETOS 
  let Curso = {
     materia : 'Ingenieria de Software',
     año : 2023,
     modulo: 'Numero II',
     mensaje: function (){
         alert("Esta es la materia de Programacion")
-    const {model} = Curso; 
     }
 }
+
 
 console.log(Curso.materia);
 
@@ -53,7 +64,22 @@ console.log(catedratico)
 let tareashechas = [1,2,"calificadas"]
 
 
+//DESTRUCTURACION DE OBJETIVOS
+const {año} = 2022;
+const {modulo} = 'MODULO 2'
+
+//CONCATENAR LAS VARIABLES
+function resta (x,y){
+    return x - y
+}
+ console.log('mi nombre es'+' ' + nombre + ' mi apellido es'+' ' + apellidos+ ' '+'tiempo de servicio '+ ' ' + resta(6,4))
+
 console.log(tareas)
+ console.log('el catedratico del curso es '+' ' + Curso.catedratico + ' el curso es'+' ' + Curso.materia+ ' '+'del año'+ Curso.año)
+
+
+
+ 
 
 // metodos para objetos
 
