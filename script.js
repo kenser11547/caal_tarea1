@@ -45,6 +45,7 @@ console.log(apellidos)
     }
 }
 
+//DESTRUCTURACION DE OBJETIVOS
 
 console.log(Curso.materia);
 
@@ -63,10 +64,30 @@ console.log(catedratico)
 
 let tareashechas = [1,2,"calificadas"]
 
+let Lugar = {
+    ubicacion : 'Semuc Champey, Coban',
+    distancia : '260 km',
+    extensio: 4562,
+    mensaje: function (){
+        alert("visitenos")
+    }
+}
 
 //DESTRUCTURACION DE OBJETIVOS
-const {año} = 2022;
-const {modulo} = 'MODULO 2'
+
+console.log(Lugar.ubicacion);
+
+console.log(Lugar['distancia']);
+
+Lugar.tarifa = 100
+Lugar.guia = 'Jose Joaquin Palma'
+let {ubicacion, distancia, extensio, tarifa, guia} = Lugar
+
+console.log(ubicacion)
+console.log(distancia)
+console.log(extensio)
+console.log(tarifa)
+console.log(guia)
 
 //CONCATENAR LAS VARIABLES
 function resta (x,y){
@@ -74,12 +95,11 @@ function resta (x,y){
 }
  console.log('mi nombre es'+' ' + nombre + ' mi apellido es'+' ' + apellidos+ ' '+'tiempo de servicio '+ ' ' + resta(6,4))
 
+
+
+
 console.log(tareas)
  console.log('el catedratico del curso es '+' ' + Curso.catedratico + ' el curso es'+' ' + Curso.materia+ ' '+'del año'+ Curso.año)
-
-
-
- 
 
 // metodos para objetos
 
